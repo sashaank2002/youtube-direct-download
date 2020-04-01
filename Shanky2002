@@ -1,0 +1,57 @@
+#!/data/data/com.termux/files/
+
+# shanky2002
+
+echo -e "Updating default packa
+
+apt update && apt -y upgrade
+
+echo -e "Requesting acces to s
+
+termux-setup-storage
+
+sleep 5
+
+echo -e "Installing python\n"
+
+apt install python
+
+echo -e "Installing youtube-dl\
+
+pip install youtube-dl
+
+echo -e "Creating the Youtube f
+
+mkdir ~ /storage/shared/Youtube
+
+echo -e "Installing ffmpeg\n"
+
+apt install ffmpeg
+
+echo -e "Creating youtube-dl f
+
+mkdir -p ~ /.config/youtube-dl
+
+echo -e "Moving config file"
+
+dos2unix /data/data/com.termux/
+
+mv -f /data/data/com.termux/fi
+
+echo -e "Creating bin folder\n
+
+mkdir ~ /bin
+
+echo -e "Downloading and instal
+
+mv -f /data/data/com.termux/fi
+
+dos2unix ~ /bin/termux-url-opene
+
+echo -e "\n"
+
+echo -e "\n"
+
+echo -e "Downloaded Files will
+
+echo "By sashaank"
